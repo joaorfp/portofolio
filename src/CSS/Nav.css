@@ -1,0 +1,29 @@
+nav {
+  background-color: rgb(43, 43, 43);
+  color: white;
+  color: linear-gradient(60deg, rgba(120,58,183,1) 0%, rgba(0,172,193,1) 100%);
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  justify-content: space-between;
+  border-top-right-radius: 3%;
+  border-bottom-right-radius:3%;
+}
+
+h2 {
+  font-size: 27px;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.general-links, .more {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
