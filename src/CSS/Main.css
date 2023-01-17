@@ -1,14 +1,8 @@
-.picture {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-}
-
 .about-me {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 1rem;
-  height: 250px;
+  height: 200px;
 }
 
 .bg1 {
